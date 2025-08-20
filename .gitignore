@@ -1,0 +1,35 @@
+# Dependencias y compilaciones de Node.js
+# ======================================
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Archivos de configuración y entornos
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias y archivos de Python (FastAPI, Uvicorn)
+# ====================================================
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos de bytecode
+__pycache__/
+*.pyc
+
+# Archivos de base de datos y logs
+*.sqlite
+*.log
+/frontend/package-lock.json
+
+# Varios (incluye archivos del sistema y editores)
+# ===============================================
+.DS_Store
+.vscode/
+.idea/
